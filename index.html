@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
     <title>Kungfu Panda | Practice -1   </title>
 </head>
 <body>
+           <div class="container">
+            <h1 style="text-align: center;">Kungfu Panda - first practice </h1>
             <hr class="commonHr">
-            <p>Search your image here</p>
+            <div class="header">
+                <p> Search your image here :  </p>
             <input type="text" id="Search" placeholder="Kung fu Panda">
             <input type="submit" value="Search">
-            <img src="./images/kungfu.webp" alt="kungfu panda">
-            <a href="#formore">For more click here</a>
+            </div>
+            <img class="images" src="./images/kungfu.webp" alt="kungfu panda">
+            <a href="#formore" class="clickhere">For more click here</a>
             <hr class="commonHr">
             <p>Feedback form</p>
-            <label for="name" id="name">
-                <br><br>
+            <label for="name" id="name">Name:<br>
                 <input type="text" id="name">
             </label>
 
-            <label for="date" id="date">
-                <br><br>
+            <label for="date" id="date">Date<br>
                 <input type="date" id="date">
             </label>
 
-            <label for="message" id="message">
-                <br><br>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <label for="message" id="message">Message<br>
+            
+                <textarea name="message" id="message" cols="70" rows="10"></textarea>
             </label>
-            <input type="submit" value="Submit">
+            <input type="submit" class="inputSubmit" value="Submit">
+           </div>
 </body>
 </html>

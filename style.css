@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.commonHr{
+    margin: 20px 5px;
+}
+.images{
+    height: 300px;
+    margin: 15px 0px;
+}
+.header{
+    display: flex;
+}
+.clickhere{
+    display: block;
+}
+label{
+    display: block;
+}
+.inputSubmit{
+    margin: 25px 10px;
+    padding: 10px 15px;
+}
